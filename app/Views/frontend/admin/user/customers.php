@@ -21,7 +21,7 @@
                         <div class="col-12 grid-margin">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Order Management</h4>
+                                    <h4 class="card-title">Customer Account Management</h4>
                                     <div class="table-responsive">
                                         <table class="table">
                                             <thead>
@@ -34,13 +34,11 @@
                                                         </div>
                                                     </th>
                                                     <th> Customer Name </th>
-                                                    <th> Product ID</th>
-                                                    <th> Date Ordered </th>
-                                                    <th>Quantity</th>
-                                                    <th> Total Price </th>
-                                                    <th> Status </th>
-                                                    <th></th>
-
+                                                    <th> Address</th>
+                                                    <th> Date Joined </th>
+                                                    <th>Contact</th>
+                                                    <th>Status</th>
+                                                    <th>Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -58,19 +56,16 @@
                                                     </td>
                                                     <td> 02312 </td>
                                                     <td> $14,500 </td>
-                                                    <td> Dashboard </td>
-                                                    <td> Credit card </td>
                                                     <td> 04 Dec 2019 </td>
+                                                    <td>Online</td>
                                                     <td>
                                                         <div class="form-group">
-
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> Ship</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Deliver</a>
+                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Remove</a>
-
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -89,18 +84,17 @@
                                                     </td>
                                                     <td> 02312 </td>
                                                     <td> $14,500 </td>
-                                                    <td> Website </td>
-                                                    <td> Cash on delivered </td>
                                                     <td> 04 Dec 2019 </td>
+                                                    <td>2min ago</td>
                                                     <td>
                                                         <div class="form-group">
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Edit</a>
+                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Remove</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
 
                                                             </div>
                                                         </div>
@@ -120,19 +114,17 @@
                                                     </td>
                                                     <td> 02312 </td>
                                                     <td> $14,500 </td>
-                                                    <td> App design </td>
-                                                    <td> Credit card </td>
                                                     <td> 04 Dec 2019 </td>
+                                                    <td>3 days ago</td>
                                                     <td>
                                                         <div class="form-group">
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Edit</a>
+                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Remove</a>
-
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -151,18 +143,17 @@
                                                     </td>
                                                     <td> 02312 </td>
                                                     <td> $14,500 </td>
-                                                    <td> Development </td>
-                                                    <td> Online Payment </td>
                                                     <td> 04 Dec 2019 </td>
+                                                    <td>Online</td>
                                                     <td>
                                                         <div class="form-group">
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Edit</a>
+                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Remove</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
 
                                                             </div>
                                                         </div>
@@ -182,18 +173,17 @@
                                                     </td>
                                                     <td> 02312 </td>
                                                     <td> $14,500 </td>
-                                                    <td> Website </td>
-                                                    <td> Credit card </td>
-                                                    <td> 04 Dec 2019 </td>
+                                                    <td> 04 Dec 2019</td>
+                                                    <td>Online</td>
                                                     <td>
                                                         <div class="form-group">
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Edit</a>
+                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Remove</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
 
                                                             </div>
                                                         </div>
@@ -220,16 +210,8 @@
     <!-- plugins:js -->
     <?= $this->include('frontend/_components/basic/script.php') ?>
     <?= $this->include('frontend/admin/product/modals/add_product.php') ?>
-    <?= $this->include('frontend/admin/product/modals/edit_orders.php') ?>
- 
+
 </body>
-<script>
-    $(".edit").click(function() {
-        $("#modal_edit_orders").modal("show");
-    })
-    $(".view").click(function() {
-        $("#modal_view_product").modal("show");
-    })
-</script>
+
 
 </html>
