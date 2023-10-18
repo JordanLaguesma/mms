@@ -34,4 +34,5 @@ class UIAdminController extends BaseController
     public function ui_promotions(){
         return view('frontend/admin/promotions/promotions');
     }
+
 }

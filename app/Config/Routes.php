@@ -18,5 +18,8 @@ $routes->group('admin', function($routes){
     $routes->get('inventory','UIAdminController::ui_inventory');
     $routes->get('promotions','UIAdminController::ui_promotions');
 });
+$routes->group('login', function($routes){
+    $routes->get('users', 'LoginUsersController::index');
+});
 
 
