@@ -123,7 +123,7 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
+            <a class="nav-link" href="<?= site_url('admin/promotions') ?>">
                 <span class="menu-icon">
                     <i class="mdi mdi-shopping"></i>
                 </span>

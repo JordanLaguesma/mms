@@ -16,6 +16,7 @@ $routes->group('admin', function($routes){
     $routes->get('customer/account','UIAdminController::ui_customer_account');
     $routes->get('user/account','UIAdminController::ui_user_account');
     $routes->get('inventory','UIAdminController::ui_inventory');
+    $routes->get('promotions','UIAdminController::ui_promotions');
 });
 
 
