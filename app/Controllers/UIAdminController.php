@@ -34,5 +34,11 @@ class UIAdminController extends BaseController
     public function ui_promotions(){
         return view('frontend/admin/promotions/promotions');
     }
+    public function ui_return(){
+        return view('frontend/admin/orders/returns');
+    }
+    public function ui_admin_settings(){
+        return view('frontend/admin/settings/settings');
+    }
 
 }

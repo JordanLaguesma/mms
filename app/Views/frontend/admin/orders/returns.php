@@ -21,7 +21,7 @@
                         <div class="col-12 grid-margin">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">Recent Orders</h4>
+                                    <h4 class="card-title">Return Requests</h4>
                                     <div class="table-responsive">
                                         <table class="table">
                                             <thead>
@@ -33,10 +33,10 @@
                                                             </label>
                                                         </div>
                                                     </th>
-                                                    <th> Customer Name </th>
-                                                    <th> Product ID</th>
-                                                    <th> Date Ordered </th>
-                                                    <th> Total Price </th>
+                                                    <th>Customer Name </th>
+                                                    <th>Customer Address</th>
+                                                    <th> Return Reason</th>
+                                                    <th> Request Date</th>
                                                     <th> Status </th>
                                                     <th></th>
 
@@ -55,19 +55,19 @@
                                                         <img src="<?= base_url('assets/images/faces/face1.jpg') ?>" alt="image" />
                                                         <span class="ps-2">Henry Klein</span>
                                                     </td>
-                                                    <td> 02312 </td> 
-                                                    <td> 04 Dec 2019 </td>
-                                                    <td> $14,500 </td>
-                                                    <td><span class="badge rounded-pill badge-outline-success py-1 px-1"> Confirmed </span></td>                                               
+                                                    <td> Dagupan City </td>
+                                                    <td> Defective Product </td>
+                                                    <td> 10-21-2023 </td>
+                                                    <td> <span class="badge rounded-pill  badge-outline-success py-1 px-1">Approved</span></td>
                                                     <td>
                                                         <div class="form-group">
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-check"></i> Confirm</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-check"></i> Approve</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Cancel</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Reject</a>
 
                                                             </div>
                                                         </div>
@@ -85,10 +85,10 @@
                                                         <img src="<?= base_url('assets/images/faces/face2.jpg') ?>" alt="image" />
                                                         <span class="ps-2">Estella Bryan</span>
                                                     </td>
-                                                    <td> 02312 </td> 
-                                                    <td> 04 Dec 2019 </td>
-                                                    <td> $14,500 </td>
-                                                    <td><span class="badge rounded-pill badge-outline-success py-1 px-1"> Confirmed </span></td>   
+                                                    <td> Dagupan City </td>
+                                                    <td> Defective Product </td>
+                                                    <td> 10-21-2023 </td>
+                                                    <td> <span class="badge rounded-pill  badge-outline-success py-1 px-1">Approved</span></td>
                                                     <td>
                                                         <div class="form-group">
 
@@ -115,10 +115,10 @@
                                                         <img src="<?= base_url('assets/images/faces/face3.jpg') ?>" alt="image" />
                                                         <span class="ps-2">Lucy Abbott</span>
                                                     </td>
-                                                    <td> 02312 </td> 
-                                                    <td> 04 Dec 2019 </td>
-                                                    <td> $14,500 </td>
-                                                    <td> <span class="badge rounded-pill badge-outline-info py-1 px-1">Preparing </span></td>   
+                                                    <td> Dagupan City </td>
+                                                    <td> Defective Product </td>
+                                                    <td> 10-21-2023 </td>
+                                                    <td><span class="badge rounded-pill badge-outline-danger py-1 px-1">Rejected</span></td>
                                                     <td>
                                                         <div class="form-group">
 
@@ -145,10 +145,10 @@
                                                         <img src="<?= base_url('assets/images/faces/face4.jpg') ?>" alt="image" />
                                                         <span class="ps-2">Peter Gill</span>
                                                     </td>
-                                                    <td> 02312 </td> 
-                                                    <td> 04 Dec 2019 </td>
-                                                    <td> $14,500 </td>
-                                                    <td> <span class="badge rounded-pill badge-outline-info py-1 px-1">Pending </span></td>   
+                                                    <td> Dagupan City </td>
+                                                    <td> Defective Product </td>
+                                                    <td> 10-21-2023 </td>
+                                                    <td> <span class="badge rounded-pill badge-outline-warning py-1 px-1">Pending</span> </td>
                                                     <td>
                                                         <div class="form-group">
 
@@ -175,10 +175,10 @@
                                                         <img src="<?= base_url('assets/images/faces/face5.jpg') ?>" alt="image" />
                                                         <span class="ps-2">Sallie Reyes</span>
                                                     </td>
-                                                    <td> 02312 </td> 
-                                                    <td> 04 Dec 2019 </td>
-                                                    <td> $14,500 </td>
-                                                    <td> <span class="badge rounded-pill badge-outline-success py-1 px-1">Confirmed </span></td>   
+                                                    <td> Dagupan City </td>
+                                                    <td> Defective Product </td>
+                                                    <td> 10-21-2023 </td>
+                                                    <td> <small><span class="badge rounded-pill  badge-outline-success py-1 px-1">Approved</span></small></td>
                                                     <td>
                                                         <div class="form-group">
 
@@ -214,14 +214,12 @@
     <!-- plugins:js -->
     <?= $this->include('frontend/_components/basic/script.php') ?>
     <?= $this->include('frontend/admin/product/modals/add_product.php') ?>
-    <?= $this->include('frontend/admin/orders/modals/view_order.php') ?>
- 
+    <?= $this->include('frontend/admin/orders/modals/view_returns.php') ?>
+
 </body>
 <script>
-    $(document).ready(function() {
-        $('.view').click(function() {
-            $('#modal_view_orders').modal('show');
-        })
+    $(".view").click(function() {
+        $("#modal_view_returns").modal("show");
     })
 </script>
 

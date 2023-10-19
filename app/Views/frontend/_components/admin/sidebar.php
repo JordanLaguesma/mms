@@ -94,7 +94,7 @@
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/order/view') ?>">View Orders</a></li>
                     <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/order/settings') ?>">Order Settings</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">R&R</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/order/returns') ?>">R&R</a></li>
                 </ul>
             </div>
         </li>
@@ -108,8 +108,8 @@
             </a>
             <div class="collapse" id="ui-user">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/user/account'); ?>">Customers</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/customer/account'); ?>">Other Users</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/customer/account'); ?>">Customers</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/user/account'); ?>">Other Users</a></li>
                   
                 </ul>
             </div>

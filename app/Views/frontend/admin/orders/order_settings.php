@@ -220,16 +220,10 @@
     <!-- plugins:js -->
     <?= $this->include('frontend/_components/basic/script.php') ?>
     <?= $this->include('frontend/admin/product/modals/add_product.php') ?>
-    <?= $this->include('frontend/admin/product/modals/edit_orders.php') ?>
  
 </body>
 <script>
-    $(".edit").click(function() {
-        $("#modal_edit_orders").modal("show");
-    })
-    $(".view").click(function() {
-        $("#modal_view_product").modal("show");
-    })
+
 </script>
 
 </html>

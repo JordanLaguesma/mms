@@ -9,6 +9,13 @@
         background-color: rgb(81, 81, 81) !important;
         border: none;
     }
+    .text-warning:hover{
+        color: rgb(252, 215, 151) !important;
+    }
+    .text-warning:active{
+        color: rgb(247, 157, 0) !important;
+    }
+
 </style>
 
 <body>
@@ -186,17 +193,18 @@
                                                             <input type="text" placeholder="Search by Product" name="" id="" class="form-control">
                                                         </div>
                                                         <div class="form-group">
-                                                        <button class="btn btnadd text-right btn-secondary" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="top" title="Add search field"> <i class="mdi mdi-plus icon_add"></i></button>
-                                           
+                                                        <i class="text-warning mdi mdi-plus-circle fs-3 icon_add_search btnadd " style="cursor:pointer;"></i>
+                                                            <!-- <button class="btn btnadd text-right btn-secondary" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="top" title="Add search field"> <i class="mdi mdi-plus-circle icon_add"></i></button> -->
+
                                                         </div>
                                                         <div class="form-group text-end">
-
+                                                  
                                                             <button class="btn btn-sm text-right  btn-outline-success" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="top" title="Search filter product"> <i class="mdi mdi-filter"></i>Filter</button>
                                                         </div>
 
                                                     </div>
                                                     <div class="col-4">
-                                                   
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -226,16 +234,16 @@
 </body>
 
 <script>
-   $(document).ready(()=>{
-    $(".filter-input").hide();
+    $(document).ready(() => {
+        $(".filter-input").hide();
 
-    $(".btnadd").click(function(){
-        $(".filter-input").toggle(function(){
-         //   $(".icon_add").removeClass("mdi-plus").addClass("mdi-minus text-danger");
-        });
-        
+        $(".btnadd").click(function() {
+            $(".filter-input").toggle(function() {
+                //   $(".icon_add").removeClass("mdi-plus").addClass("mdi-minus text-danger");
+            });
+
+        })
     })
-   })
 </script>
 
 </html>

@@ -17,6 +17,11 @@
             <!-- partial -->
             <div class="main-panel">
                 <div class="content-wrapper">
+                    <div class="row grid-margin">
+                        <div class="col text-end">
+                            <button class="btn btn-sm text-right  btn-outline-success"data-bs-toggle="modal" data-bs-target="#modal_add_users" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="top" title="Add user"> <i class="mdi mdi-account-plus"></i>New</button>
+                        </div>
+                    </div>
                     <div class="row ">
                         <div class="col-12 grid-margin">
                             <div class="card">
@@ -58,13 +63,12 @@
                                                     <td> 04 Dec 2019 </td>
                                                     <td>
                                                         <div class="form-group">
-
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -84,19 +88,19 @@
                                                     <td> 02312 </td>
                                                     <td> Co-Admin </td>
                                                     <td> 04 Dec 2019 </td>
+
                                                     <td>
                                                         <div class="form-group">
-
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
-
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -113,19 +117,19 @@
                                                     <td> 02312 </td>
                                                     <td> Delivery </td>
                                                     <td> 04 Dec 2019 </td>
+
                                                     <td>
                                                         <div class="form-group">
-
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
-
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -142,19 +146,19 @@
                                                     <td> 02312 </td>
                                                     <td> Cashier </td>
                                                     <td> 04 Dec 2019 </td>
+
                                                     <td>
                                                         <div class="form-group">
-
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
-
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -171,19 +175,19 @@
                                                     <td> 02312 </td>
                                                     <td> Delivery </td>
                                                     <td> 04 Dec 2019</td>
+
                                                     <td>
                                                         <div class="form-group">
-
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
-
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
                                                             </div>
                                                         </div>
                                                     </td>
+
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -206,9 +210,22 @@
     <!-- plugins:js -->
     <?= $this->include('frontend/_components/basic/script.php') ?>
     <?= $this->include('frontend/admin/product/modals/add_product.php') ?>
-
+    <?= $this->include('frontend/admin/user/modals/add_users.php') ?>
+    <?= $this->include('frontend/admin/user/modals/edit_users.php') ?>
+    <?= $this->include('frontend/admin/user/modals/view_users.php') ?>
+    <!-- End custom js for this page -->
 
 </body>
 
+<script>
+    $(document).ready(function() {
+        $(".edit").click(function() {
+            $("#modal_edit_users").modal("show");
+        })
+        $(".view").click(function() {
+            $("#modal_view_users").modal("show");
+        })
+    })
+</script>
 
 </html>

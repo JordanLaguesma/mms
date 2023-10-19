@@ -60,12 +60,14 @@
                                                     <td>Online</td>
                                                     <td>
                                                         <div class="form-group">
+
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
                                                                 <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
+
                                                             </div>
                                                         </div>
                                                     </td>
@@ -91,10 +93,10 @@
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
+                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
 
                                                             </div>
                                                         </div>
@@ -121,10 +123,11 @@
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
+                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
+
                                                             </div>
                                                         </div>
                                                     </td>
@@ -150,10 +153,10 @@
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
+                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
 
                                                             </div>
                                                         </div>
@@ -180,10 +183,10 @@
 
                                                             <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
                                                             <div class="dropdown-menu">
-                                                            <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
-                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Update</a>
+                                                                <a class="dropdown-item view" href="#"><i class="mdi mdi-eye"></i> View</a>
+                                                                <a class="dropdown-item edit" href="#"><i class="mdi mdi-pen"></i> Message</a>
                                                                 <div role="separator" class="dropdown-divider"></div>
-                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Revoke</a>
+                                                                <a class="dropdown-item" href="#"><i class="mdi mdi-delete"></i> Block</a>
 
                                                             </div>
                                                         </div>
@@ -210,8 +213,15 @@
     <!-- plugins:js -->
     <?= $this->include('frontend/_components/basic/script.php') ?>
     <?= $this->include('frontend/admin/product/modals/add_product.php') ?>
+    <?= $this->include('frontend/admin/user/modals/view_customer.php') ?>
 
 </body>
 
-
+    <script>
+        $(document).ready(function() {
+            $(".view").click(function() {
+                $("#modal_view_customer").modal("show"); 
+            })
+        })
+    </script>
 </html>
