@@ -14,6 +14,8 @@
     <script src="<?= base_url('assets/js/misc.js') ?>"></script>
     <script src="<?= base_url('assets/js/settings.js') ?>"></script>
     <script src="<?= base_url('assets/js/todolist.js') ?>"></script>
+    <script src="<?= base_url('assets/js/tooltips.js') ?>"></script>
+    <script src="<?= base_url('assets/js/popover.js')?>"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="<?= base_url('assets/js/dashboard.js') ?>"></script>

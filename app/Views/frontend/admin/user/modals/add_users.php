@@ -17,6 +17,7 @@
                     <option value="1">Co-admin</option>
                     <option value="2">Cashier</option>
                     <option value="3">Delivery</option>
+                   
                    </select>
                 </div>
                 <div class="mb-3">

@@ -1,0 +1,150 @@
+.content-wrapper {
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    background-color: rgb(253, 253, 253);
+    /* border: 1px solid rgb(204, 204, 204); */
+    box-shadow: rgb(226, 226, 228) 0px 2px 10px 0px;
+    border: none !important;
+}
+
+.card-title {
+    color: rgb(72, 75, 106) !important;
+}
+
+td {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+thead th {
+    border-bottom: 2px solid rgb(183, 183, 184) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(62, 63, 68) !important;
+}
+
+.modal-content {
+    background-color: rgb(253, 253, 253) !important;
+
+}
+
+.modal-header {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.modal-body {
+    border-top: none;
+}
+
+.modal-footer {
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+.modal-content * {
+    background-color: rgb(254, 255, 255);
+    color: rgb(0, 0, 0) !important;
+
+}
+
+.modal-content input {
+    border: 1px solid rgb(151, 152, 153) !important;
+}
+
+.modal-content select {
+    border: 1px solid rgb(151, 152, 153) !important;
+}
+
+.modal-content textarea {
+    border: 1px solid rgb(151, 152, 153) !important;
+}
+
+.modal-content *:focus {
+    background-color: rgb(246, 248, 250);
+}
+
+.modal-content *:after {
+    background-color: rgb(215, 217, 219);
+}
+
+.modal-footer .btn-primary {
+    background-color: rgb(20, 165, 223) !important;
+}
+
+.modal-footer .btn-secondary {
+    background-color: rgb(173, 176, 177) !important
+}
+
+.dropdown-menu {
+    background-color: rgb(255, 255, 255) !important;
+    border: 1.5px solid rgb(222, 223, 226) !important;
+}
+
+.dropdown-menu a {
+    color: rgb(48, 46, 46);
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(245, 247, 247) !important;
+}
+
+.dropdown-menu .dropdown-item:active {
+    background-color: rgb(75, 82, 109);
+    color: rgb(15, 15, 15) !important;
+}
+
+.dropdown-menu .dropdown-divider {
+    border: none !important;
+}
+
+.footer {
+    background-color: rgb(252, 252, 252) !important;
+    box-shadow: rgb(149, 149, 150) 0px 2px 10px 0px;
+}
+
+.footer span {
+    color: rgb(84, 85, 87) !important;
+}
+
+.navbar {
+    background-color: rgb(252, 252, 252);
+}
+
+.nav-link input {
+    background-color: rgb(254, 255, 255) !important;
+    border: 1.5px solid rgb(226, 224, 224) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+nav div ul li a i,
+nav p {
+    color: rgb(80, 78, 78) !important;
+}
+
+nav .preview-icon {
+    background-color: rgb(238, 239, 241) !important;
+    border: 1px solid rgb(230, 226, 226) !important;
+    ;
+}
+
+.sidebar,
+.navbar-brand-wrapper,
+.sidebar-brand-wrapper {
+    background-color: rgb(252, 252, 252) !important;
+    box-shadow: rgb(124, 124, 124) 0px 1px 10px 1px;
+}
+
+nav ul li .nav-link {
+    background-color: rgb(255, 255, 255) !important;
+
+}
+
+.menu-title {
+    color: rgb(67, 67, 68) !important;
+}

@@ -15,7 +15,7 @@
         </ul>
         <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item d-none d-lg-block">
-                <a class="nav-link btn btn-success create-new-button" data-bs-toggle="modal" data-bs-target="#modal_add_product"  aria-expanded="false">+ Add Product</a>
+                <a class="nav-link btn btn-success create-new-button" data-bs-toggle="modal" data-bs-target="#modal_add_product" aria-expanded="false">+ Add Product</a>
             </li>
             <li class="nav-item nav-settings d-none d-lg-block">
                 <a class="nav-link" href="#">
@@ -131,6 +131,18 @@
                             <p class="preview-subject mb-1">Settings</p>
                         </div>
                     </a>
+                    <a href="#" class="dropdown-item preview-item" id="dark-mode">
+                        <div class="preview-thumbnail">
+                            <div class="preview-icon bg-dark rounded-circle">
+                                <i class="mdi mdi-weather-night text-white" id="mode-icon"></i>
+                                <!-- <i class="mdi mdi-weather-night text-white icon-light-mode"></i> -->
+                            </div>
+                        </div>
+                        <div class="preview-item-content">
+                            <p class="preview-subject mb-1" id="mode-text">Dark mode</p>
+                            <!-- <p class="preview-subject mb-1 light-mode">Dark mode</p> -->
+                        </div>
+                    </a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item preview-item">
                         <div class="preview-thumbnail">
@@ -152,3 +164,109 @@
         </button>
     </div>
 </nav>
+<!-- <script>
+    function toggleTheme() {
+        const theme = document.getElementById("themeStylesheet");
+        const currentTheme = theme.getAttribute("href");
+        const mode_icon = document.getElementById("mode-icon");
+        const mode_text = document.getElementById("mode-text");
+        const lightTheme = "<?= base_url('assets/theme/light-theme.css') ?>"
+        const darkTheme = "<?= base_url('assets/theme/dark-theme.css') ?>"
+
+        if (currentTheme === lightTheme) {
+            theme.setAttribute("href", darkTheme);
+            localStorage.setItem("theme", "dark");
+            localStorage.setItem("mode-text", "Dark Mode");
+            localStorage.setItem("mode-icon", "mdi-weather-sunny");
+        } else {
+            theme.setAttribute("href", lightTheme);
+            localStorage.setItem("theme", "light");
+            localStorage.setItem("mode-text", "Light Mode");
+            localStorage.setItem("mode-icon", "mdi-weather-night");
+        }
+    }
+
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+        const theme = document.getElementById("themeStylesheet");
+        if (savedTheme === "dark") {
+            theme.setAttribute("href", "<?= base_url('assets/theme/dark-theme.css') ?>");
+            // mode_text.innerText = "Light Mode";
+            // mode_icon.classList.replace("mdi-weather-night","mdi-weather-sunny");
+        } else {
+            theme.setAttribute("href", "<?= base_url('assets/theme/light-theme.css') ?>");
+            // mode_text.innerText = "Dark Mode";
+            // mode_icon.classList.replace("mdi-weather-sunny","mdi-weather-dark");
+        }
+    }
+    const modeText = localStorage.getItem("mode-text");
+    if (modeText) {
+        const mode_text = document.getElementById("mode-text");
+        if(modeText === "Dark Mode") {
+            mode_text.innerText = "Light Mode";
+            alert(modeText)
+        }else{
+            mode_text.innerText = "Dark Mode";
+            alert(modeText)
+        }
+    }
+
+    // const modeIcon = localStorage.getItem("mode-icon");
+    // if(modeIcon){
+    //     const mode_icon = document.getElementById("mode-icon");
+    //     mode_icon.classList.replace("mdi-weather-night","mdi-weather-sunny");
+    // }else{
+    //     mode_icon.classList.replace("mdi-weather-night","mdi-weather-sunny");
+    // }
+
+    const themeToggle = document.getElementById("dark-mode");
+    themeToggle.addEventListener("click", toggleTheme);
+</script> -->
+<script>
+    function toggleTheme() {
+        const theme = document.getElementById("themeStylesheet");
+        const mode_icon = document.getElementById("mode-icon");
+        const mode_text = document.getElementById("mode-text");
+        const currentTheme = theme.getAttribute("href");
+        const lightTheme = "<?= base_url('assets/theme/light-theme.css') ?>";
+        const darkTheme = "<?= base_url('assets/theme/dark-theme.css') ?>";
+
+        if (currentTheme === lightTheme) {
+            theme.setAttribute("href", darkTheme);
+            localStorage.setItem("theme", "dark");
+            mode_text.innerText = "Light Mode";
+            mode_icon.classList.replace("text-dark", "text-white");
+            mode_icon.classList.replace("mdi-weather-night", "mdi-weather-sunny");
+        } else {
+            theme.setAttribute("href", lightTheme);
+            localStorage.setItem("theme", "light");
+            mode_text.innerText = "Dark Mode";
+            mode_icon.classList.replace("text-white", "text-dark");
+            mode_icon.classList.replace("mdi-weather-sunny", "mdi-weather-night");
+        }
+    }
+
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+        const theme = document.getElementById("themeStylesheet");
+        const mode_icon = document.getElementById("mode-icon");
+        const mode_text = document.getElementById("mode-text");
+        const lightTheme = "<?= base_url('assets/theme/light-theme.css') ?>";
+        const darkTheme = "<?= base_url('assets/theme/dark-theme.css') ?>";
+
+        if (savedTheme === "dark") {
+            theme.setAttribute("href", darkTheme);
+            mode_text.innerText = "Light Mode";
+            mode_icon.classList.replace("text-dark", "text-white");
+            mode_icon.classList.replace("mdi-weather-night", "mdi-weather-sunny");
+        } else {
+            theme.setAttribute("href", lightTheme);
+            mode_text.innerText = "Dark Mode";
+            mode_icon.classList.replace("text-white", "text-dark");
+            mode_icon.classList.replace("mdi-weather-sunny", "mdi-weather-night");
+        }
+    }
+
+    const themeToggle = document.getElementById("dark-mode");
+    themeToggle.addEventListener("click", toggleTheme);
+</script>

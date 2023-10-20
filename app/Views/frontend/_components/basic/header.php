@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="<?= base_url('assets/images/favicon.png') ?> " />
+    <link rel="stylesheet" id="themeStylesheet" href="<?= base_url('assets/theme/light-theme.css') ?>">
 </head>
 <style>
     input, textarea, select{
