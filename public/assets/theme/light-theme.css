@@ -148,3 +148,66 @@ nav ul li .nav-link {
 .menu-title {
     color: rgb(67, 67, 68) !important;
 }
+
+.sidebar ul .active .sidebar-link {
+    background-color: rgb(208, 209, 210) !important;
+}
+
+
+.sidebar .nav.sub-menu .nav-item .nav-link.active {
+    color: #6c7293;
+}
+
+.sidebar .nav-item .collapse ul {
+    background-color: #f7f8fa;
+}
+
+.sidebar .nav-item .collapse {
+    background-color: #f7f8fa !important;
+}
+.sidebar .nav-item  a .menu-title {
+    background-color: rgb(252, 253, 253) !important;
+}
+.sidebar .active a .menu-title {
+    background-color: rgb(208,209,210) !important;
+}
+.sidebar ul  .sidebar-link:hover {
+    background-color: rgb(208, 209, 210) !important;
+}
+.sidebar ul  .sidebar-link:hover span {
+    background-color: rgb(208,209,210) !important;
+}
+.sidebar a .menu-title:active {
+    background-color: rgb(208,209,210) !important;
+}
+.sidebar .nav-item .collapse ul li .nav-link:hover{
+    background-color: rgb(208,209,210) !important;
+    color: #6c7293 !important;
+}
+.nav-tabs .nav-link {
+    background-color: white !important;
+    color: #6c7293 !important;
+    border: none ;  
+}
+.nav-tabs .nav-item .active{
+
+    border-bottom: 4px solid #0fbd57 !important;
+    
+}
+.nav-tabs{
+    border-bottom: 1px solid #d6d8e2 !important;
+}
+.tab-content .table{
+   border: none !important;
+
+}
+#tab2 input{    
+    background-color: rgb(254, 255, 255) !important;
+    border: 1.5px solid rgb(226, 224, 224) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+
+.tab-content{
+    border: none !important;
+}

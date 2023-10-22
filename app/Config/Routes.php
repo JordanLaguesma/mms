@@ -23,5 +23,11 @@ $routes->group('admin', function($routes){
 $routes->group('login', function($routes){
     $routes->get('users', 'LoginUsersController::index');
 });
+$routes->group('cashier', function($routes){
+    $routes->get('home', 'UICashierController::index');
+    $routes->get('inventory', 'UICashierController::ui_cashier_inventory');
+    $routes->get('orders', 'UICashierController::ui_cashier_orders');
+    $routes->get('pos', 'UICashierController::ui_cashier_pos');
+});
 
 

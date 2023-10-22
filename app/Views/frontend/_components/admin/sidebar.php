@@ -11,9 +11,9 @@
                         <img class="img-xs rounded-circle " src="<?= base_url('assets/images/faces/face15.jpg') ?>" alt="">
                         <span class="count bg-success"></span>
                     </div>
-                    <div class="profile-name">
-                        <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
-                        <span>Gold Member</span>
+                    <div class="profile-name text-center">
+                        <h5 class="mb-0 font-weight-normal py-1">Hayden Klein</h5>
+                        <span class="badge badge-info text-white py-0 px-1">admin</span>
                     </div>
                 </div>
                 <a href="#" id="profile-dropdown" data-bs-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -57,7 +57,7 @@
             <span class="nav-link">Navigation</span>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="<?= site_url('admin/dashboard') ?>">
+            <a class="nav-link sidebar-link" href="<?= site_url('admin/dashboard') ?>">
                 <span class="menu-icon">
                     <i class="mdi mdi-speedometer"></i>
                 </span>
@@ -65,7 +65,7 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-product" aria-expanded="false" aria-controls="ui-product">
+            <a class="nav-link sidebar-link" data-bs-toggle="collapse" href="#ui-product" aria-expanded="false" aria-controls="ui-product">
                 <span class="menu-icon">
                     <i class="mdi mdi-tag"></i>
                 </span>
@@ -74,16 +74,16 @@
             </a>
             <div class="collapse" id="ui-product">
                 <ul class="nav flex-column sub-menu">
-               
-                    <li class="nav-item">  <a class="nav-link btn" data-bs-toggle="modal" data-bs-target="#modal_add_product"  aria-expanded="false" href="#">+ Add Product</a></li>
+
+                    <li class="nav-item"> <a class="nav-link btn" data-bs-toggle="modal" data-bs-target="#modal_add_product" aria-expanded="false" href="#">+ Add Product</a></li>
                     <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/product/settings'); ?>">Product Settings</a></li>
                     <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/product/catalog'); ?>">Product Catalog</a></li>
 
                 </ul>
             </div>
         </li>
-               <li class="nav-item menu-items">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-order" aria-expanded="false" aria-controls="ui-order">
+        <li class="nav-item menu-items">
+            <a class="nav-link sidebar-link" data-bs-toggle="collapse" href="#ui-order" aria-expanded="false" aria-controls="ui-order">
                 <span class="menu-icon">
                     <i class="mdi mdi-cart"></i>
                 </span>
@@ -98,8 +98,8 @@
                 </ul>
             </div>
         </li>
-               <li class="nav-item menu-items">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-user" aria-expanded="false" aria-controls="ui-basic">
+        <li class="nav-item menu-items">
+            <a class="nav-link sidebar-link" data-bs-toggle="collapse" href="#ui-user" aria-expanded="false" aria-controls="ui-basic">
                 <span class="menu-icon">
                     <i class="mdi mdi-account-group"></i>
                 </span>
@@ -110,12 +110,12 @@
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/customer/account'); ?>">Customers</a></li>
                     <li class="nav-item"> <a class="nav-link" href="<?= site_url('admin/user/account'); ?>">Other Users</a></li>
-                  
+
                 </ul>
             </div>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="<?= site_url('admin/inventory') ?>">
+            <a class="nav-link sidebar-link" href="<?= site_url('admin/inventory') ?>">
                 <span class="menu-icon">
                     <i class="mdi mdi-archive"></i>
                 </span>
@@ -123,7 +123,7 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="<?= site_url('admin/promotions') ?>">
+            <a class="nav-link sidebar-link" href="<?= site_url('admin/promotions') ?>">
                 <span class="menu-icon">
                     <i class="mdi mdi-shopping"></i>
                 </span>

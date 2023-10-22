@@ -3,9 +3,6 @@
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="<?= base_url('assets/images/logo-mini.svg') ?>" alt="logo" /></a>
     </div>
     <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
-        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-            <span class="mdi mdi-menu"></span>
-        </button>
         <ul class="navbar-nav w-100">
             <li class="nav-item w-100">
                 <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
@@ -14,55 +11,8 @@
             </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
-            <li class="nav-item d-none d-lg-block">
-                <button class="nav-link btn btn-success create-new-button" data-bs-toggle="modal" data-bs-target="#modal_add_product" aria-expanded="false" style="background-color: #46c35f !important; ">+ Add Product</button>
-            </li>
-            <li class="nav-item nav-settings d-none d-lg-block">
-                <a class="nav-link" href="#">
-                    <i class="mdi mdi-view-grid"></i>
-                </a>
-            </li>
-            <li class="nav-item dropdown border-left">
-                <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="mdi mdi-email"></i>
-                    <span class="count bg-success"></span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
-                    <h6 class="p-3 mb-0">Messages</h6>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item preview-item">
-                        <div class="preview-thumbnail">
-                            <img src="<?= base_url('assets/images/faces/face4.jpg') ?>" alt="image" class="rounded-circle profile-pic">
-                        </div>
-                        <div class="preview-item-content">
-                            <p class="preview-subject ellipsis mb-1">Mark send you a message</p>
-                            <p class="text-muted mb-0"> 1 Minutes ago </p>
-                        </div>
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item preview-item">
-                        <div class="preview-thumbnail">
-                            <img src="<?= base_url('images/faces/face2.jpg') ?>" alt="image" class="rounded-circle profile-pic">
-                        </div>
-                        <div class="preview-item-content">
-                            <p class="preview-subject ellipsis mb-1">Cregh send you a message</p>
-                            <p class="text-muted mb-0"> 15 Minutes ago </p>
-                        </div>
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item preview-item">
-                        <div class="preview-thumbnail">
-                            <img src="<?= base_url('images/faces/face3.jpg') ?>" alt="image" class="rounded-circle profile-pic">
-                        </div>
-                        <div class="preview-item-content">
-                            <p class="preview-subject ellipsis mb-1">Profile picture updated</p>
-                            <p class="text-muted mb-0"> 18 Minutes ago </p>
-                        </div>
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <p class="p-3 mb-0 text-center">4 new messages</p>
-                </div>
-            </li>
+          
+      
             <li class="nav-item dropdown border-left">
                 <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
                     <i class="mdi mdi-bell"></i>
@@ -154,8 +104,6 @@
                             <p class="preview-subject mb-1">Log out</p>
                         </div>
                     </a>
-                    <div class="dropdown-divider"></div>
-                    <p class="p-3 mb-0 text-center">Advanced settings</p>
                 </div>
             </li>
         </ul>
@@ -164,64 +112,6 @@
         </button>
     </div>
 </nav>
-<!-- <script>
-    function toggleTheme() {
-        const theme = document.getElementById("themeStylesheet");
-        const currentTheme = theme.getAttribute("href");
-        const mode_icon = document.getElementById("mode-icon");
-        const mode_text = document.getElementById("mode-text");
-        const lightTheme = "<?= base_url('assets/theme/light-theme.css') ?>"
-        const darkTheme = "<?= base_url('assets/theme/dark-theme.css') ?>"
-
-        if (currentTheme === lightTheme) {
-            theme.setAttribute("href", darkTheme);
-            localStorage.setItem("theme", "dark");
-            localStorage.setItem("mode-text", "Dark Mode");
-            localStorage.setItem("mode-icon", "mdi-weather-sunny");
-        } else {
-            theme.setAttribute("href", lightTheme);
-            localStorage.setItem("theme", "light");
-            localStorage.setItem("mode-text", "Light Mode");
-            localStorage.setItem("mode-icon", "mdi-weather-night");
-        }
-    }
-
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-        const theme = document.getElementById("themeStylesheet");
-        if (savedTheme === "dark") {
-            theme.setAttribute("href", "<?= base_url('assets/theme/dark-theme.css') ?>");
-            // mode_text.innerText = "Light Mode";
-            // mode_icon.classList.replace("mdi-weather-night","mdi-weather-sunny");
-        } else {
-            theme.setAttribute("href", "<?= base_url('assets/theme/light-theme.css') ?>");
-            // mode_text.innerText = "Dark Mode";
-            // mode_icon.classList.replace("mdi-weather-sunny","mdi-weather-dark");
-        }
-    }
-    const modeText = localStorage.getItem("mode-text");
-    if (modeText) {
-        const mode_text = document.getElementById("mode-text");
-        if(modeText === "Dark Mode") {
-            mode_text.innerText = "Light Mode";
-            alert(modeText)
-        }else{
-            mode_text.innerText = "Dark Mode";
-            alert(modeText)
-        }
-    }
-
-    // const modeIcon = localStorage.getItem("mode-icon");
-    // if(modeIcon){
-    //     const mode_icon = document.getElementById("mode-icon");
-    //     mode_icon.classList.replace("mdi-weather-night","mdi-weather-sunny");
-    // }else{
-    //     mode_icon.classList.replace("mdi-weather-night","mdi-weather-sunny");
-    // }
-
-    const themeToggle = document.getElementById("dark-mode");
-    themeToggle.addEventListener("click", toggleTheme);
-</script> -->
 <script>
     function toggleTheme() {
         const theme = document.getElementById("themeStylesheet");

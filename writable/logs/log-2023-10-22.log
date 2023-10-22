@@ -1,0 +1,14 @@
+CRITICAL - 2023-10-22 11:11:17 --> Invalid file: "frontend/_components/cashier/checkout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/frontend/cashier/pos/pos.php(136): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/emortal/Documents/projects/ci4/mms/app/Views/frontend/cashier/pos/pos.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/UICashierController.php(20): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UICashierController->ui_cashier_pos()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emortal/Documents/projects/ci4/mms/public/index.php')
