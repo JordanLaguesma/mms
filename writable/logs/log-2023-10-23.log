@@ -1,0 +1,155 @@
+ERROR - 2023-10-23 00:22:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\jmlag\Documents\mms-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jmlag\Documents\mms-main\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jmlag\Documents\mms-main\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\jmlag\Documents\mms-main\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 C:\Users\jmlag\Documents\mms-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\jmlag\Documents\mms-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\jmlag\Documents\mms-main\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\jmlag\Documents\mms-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jmlag\Documents\mms-main\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jmlag\Documents\mms-main\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\jmlag\Documents\mms-main\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 C:\Users\jmlag\Documents\mms-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\jmlag\Documents\mms-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\jmlag\Documents\mms-main\spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-10-23 00:23:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\jmlag\Documents\mms-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jmlag\Documents\mms-main\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jmlag\Documents\mms-main\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\jmlag\Documents\mms-main\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 C:\Users\jmlag\Documents\mms-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\jmlag\Documents\mms-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\jmlag\Documents\mms-main\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\jmlag\Documents\mms-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jmlag\Documents\mms-main\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jmlag\Documents\mms-main\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\jmlag\Documents\mms-main\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 C:\Users\jmlag\Documents\mms-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\jmlag\Documents\mms-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\jmlag\Documents\mms-main\spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-10-23 00:23:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\jmlag\Documents\mms-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jmlag\Documents\mms-main\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jmlag\Documents\mms-main\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\jmlag\Documents\mms-main\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 C:\Users\jmlag\Documents\mms-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\Users\jmlag\Documents\mms-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\Users\jmlag\Documents\mms-main\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jmlag\Documents\mms-main\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\jmlag\Documents\mms-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jmlag\Documents\mms-main\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jmlag\Documents\mms-main\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\jmlag\Documents\mms-main\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 C:\Users\jmlag\Documents\mms-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 C:\Users\jmlag\Documents\mms-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 C:\Users\jmlag\Documents\mms-main\spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2023-10-23 01:42:25 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('$2y$10$TQ1.ptBic7SaYG0HAchIF.Mx03JKJHwubveW0bGVmyt1c1lkuHZlG', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('$2y$10$TQ1.ptBic7SaYG0HAchIF.Mx03JKJHwubveW0bGVmyt1c1lkuHZlG', false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert('$2y$10$TQ1.ptBic7SaYG0HAchIF.Mx03JKJHwubveW0bGVmyt1c1lkuHZlG', false)
+ 4 APPPATH\Controllers\LoginUsersController.php(65): CodeIgniter\BaseModel->save('$2y$10$TQ1.ptBic7SaYG0HAchIF.Mx03JKJHwubveW0bGVmyt1c1lkuHZlG')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\LoginUsersController->insertpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginUsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jmlag\\Documents\\mms-main\\public\\index.php')
+CRITICAL - 2023-10-23 01:43:35 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('$2y$10$dCerC/jUOJPRh7pvisvyxePGkD6kVzpgjutdQN4I0a2ZKFtnZvgfO', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('$2y$10$dCerC/jUOJPRh7pvisvyxePGkD6kVzpgjutdQN4I0a2ZKFtnZvgfO', false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert('$2y$10$dCerC/jUOJPRh7pvisvyxePGkD6kVzpgjutdQN4I0a2ZKFtnZvgfO', false)
+ 4 APPPATH\Controllers\LoginUsersController.php(65): CodeIgniter\BaseModel->save('$2y$10$dCerC/jUOJPRh7pvisvyxePGkD6kVzpgjutdQN4I0a2ZKFtnZvgfO')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\LoginUsersController->insertpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginUsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jmlag\\Documents\\mms-main\\public\\index.php')
+CRITICAL - 2023-10-23 01:45:00 --> Class "App\Controllers\Userss" not found
+in APPPATH\Controllers\LoginUsersController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\LoginUsersController->insertpassword()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginUsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jmlag\\Documents\\mms-main\\public\\index.php')
+CRITICAL - 2023-10-23 01:45:26 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1750.
+ 1 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('$2y$10$KJdYx9tuDfHhwWsaWQEwVuettvuBdAyqdQflmxWP1NcCdUd7K1NVy', 'insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert('$2y$10$KJdYx9tuDfHhwWsaWQEwVuettvuBdAyqdQflmxWP1NcCdUd7K1NVy', false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert('$2y$10$KJdYx9tuDfHhwWsaWQEwVuettvuBdAyqdQflmxWP1NcCdUd7K1NVy', false)
+ 4 APPPATH\Controllers\LoginUsersController.php(65): CodeIgniter\BaseModel->save('$2y$10$KJdYx9tuDfHhwWsaWQEwVuettvuBdAyqdQflmxWP1NcCdUd7K1NVy')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\LoginUsersController->insertpassword()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginUsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jmlag\\Documents\\mms-main\\public\\index.php')
+INFO - 2023-10-23 01:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-23 01:49:24 --> Call to undefined method CodeIgniter\Session\Session::set_data()
+in APPPATH\Controllers\LoginUsersController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\LoginUsersController->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginUsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\jmlag\\Documents\\mms-main\\public\\index.php')
+INFO - 2023-10-23 01:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 01:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 01:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 01:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 04:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 05:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
