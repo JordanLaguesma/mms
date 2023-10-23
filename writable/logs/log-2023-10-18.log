@@ -1,0 +1,42 @@
+CRITICAL - 2023-10-18 06:31:58 --> Invalid file: "frontend/admin/product/modals/edit_promotions.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/frontend/admin/promotions/promotions.php(181): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/emoshunal/Documents/mms/app/Views/frontend/admin/promotions/promotions.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/UIAdminController.php(35): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UIAdminController->ui_promotions()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emoshunal/Documents/mms/public/index.php')
+CRITICAL - 2023-10-18 06:34:23 --> Invalid file: "frontend/admin/promotions/modals/edit_promotions.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/frontend/admin/promotions/promotions.php(185): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/emoshunal/Documents/mms/app/Views/frontend/admin/promotions/promotions.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/UIAdminController.php(35): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UIAdminController->ui_promotions()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emoshunal/Documents/mms/public/index.php')
+CRITICAL - 2023-10-18 08:21:47 --> syntax error, unexpected end of file
+in APPPATH/Config/Routes.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emoshunal/Documents/mms/public/index.php')
+CRITICAL - 2023-10-18 08:21:47 --> syntax error, unexpected end of file
+in APPPATH/Config/Routes.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emoshunal/Documents/mms/public/index.php')

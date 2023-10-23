@@ -1,0 +1,34 @@
+CRITICAL - 2023-10-14 11:24:12 --> Invalid file: "frontend/admin/.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UIAdminController.php(11): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UIAdminController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emortal/Documents/projects/ci4/mms/public/index.php')
+CRITICAL - 2023-10-14 11:24:24 --> Invalid file: "_components/basic/header.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/frontend/admin/index.php(4): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/emortal/Documents/projects/ci4/mms/app/Views/frontend/admin/index.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/UIAdminController.php(11): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UIAdminController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emortal/Documents/projects/ci4/mms/public/index.php')
+CRITICAL - 2023-10-14 13:38:45 --> Invalid file: "frontend/admin/product_settings.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UIAdminController.php(14): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UIAdminController->ui_product_settings()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/emortal/Documents/projects/ci4/mms/public/index.php')
