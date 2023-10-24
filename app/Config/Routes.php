@@ -19,6 +19,8 @@ $routes->group('admin', ['filter' => 'authuser'], function($routes){
     $routes->get('inventory','UIAdminController::ui_inventory');
     $routes->get('promotions','UIAdminController::ui_promotions');
     $routes->get('settings','UIAdminController::ui_admin_settings');
+
+    $routes->post('user/account/add', 'UIAdminController::ui_user_add');
 });
 $routes->group('login', function($routes){
     $routes->get('users', 'LoginUsersController::index');
@@ -33,6 +35,6 @@ $routes->group('cashier', ['filter' => 'authuser'], function($routes){
     $routes->get('pos', 'UICashierController::ui_cashier_pos');
 });
 
-# $routes->get('pass', 'LoginUsersController::insertPassword');
+// $routes->get('pass', 'LoginUsersController::insertPassword');
 
 

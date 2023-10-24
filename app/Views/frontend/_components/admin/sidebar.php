@@ -12,7 +12,7 @@
                         <span class="count bg-success"></span>
                     </div>
                     <div class="profile-name text-center">
-                        <h5 class="mb-0 font-weight-normal py-1">Hayden Klein</h5>
+                        <h5 class="mb-0 font-weight-normal py-1"><?php echo session()->get('username'); ?></h5>
                         <span class="badge badge-info text-white py-0 px-1">admin</span>
                     </div>
                 </div>

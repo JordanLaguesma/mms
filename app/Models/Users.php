@@ -14,10 +14,11 @@ class Users extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
+        'fullname',
         'username',
         'email',
         'password',
-        'role',
+        'role'
     ];
 
     // Dates

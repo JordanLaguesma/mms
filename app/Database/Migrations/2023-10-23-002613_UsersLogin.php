@@ -14,6 +14,10 @@ class UsersLogin extends Migration
                 'unsigned' => TRUE,
                 'auto_increment' => TRUE,
             ],
+            'fullname' => [
+                'type' => 'VARCHAR',
+                'constraint' => 255,
+            ],
             'username' => [
                 'type' => 'VARCHAR',
                 'constraint' => 255,
