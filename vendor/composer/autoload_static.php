@@ -21,6 +21,10 @@ class ComposerStaticInit3272f54dba8a093412a769d9f76c540c
     );
 
     public static $prefixLengthsPsr4 = array (
+        'm' => 
+        array (
+            'monken\\' => 7,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php81\\' => 23,
@@ -85,6 +89,10 @@ class ComposerStaticInit3272f54dba8a093412a769d9f76c540c
     );
 
     public static $prefixDirsPsr4 = array (
+        'monken\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monken/tablesigniter/src',
+        ),
         'Symfony\\Polyfill\\Php81\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php81',
@@ -3467,6 +3475,7 @@ class ComposerStaticInit3272f54dba8a093412a769d9f76c540c
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'monken\\TablesIgniter' => __DIR__ . '/..' . '/monken/tablesigniter/src/TablesIgniter.php',
         'org\\bovigo\\vfs\\DotDirectory' => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php/org/bovigo/vfs/DotDirectory.php',
         'org\\bovigo\\vfs\\Quota' => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php/org/bovigo/vfs/Quota.php',
         'org\\bovigo\\vfs\\content\\FileContent' => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php/org/bovigo/vfs/content/FileContent.php',

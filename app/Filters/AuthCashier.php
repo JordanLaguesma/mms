@@ -6,7 +6,7 @@ use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class AuthUser implements FilterInterface
+class AuthCashier implements FilterInterface
 {
     /**
      * Do whatever processing this filter needs to do.
@@ -25,8 +25,14 @@ class AuthUser implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        if(!session()->get('logged_in') == TRUE) {
+        if(session()->get('logged_in') !== TRUE) {
             return redirect()->to('login/users');
+        } else {
+            $role = session()->get('role');
+
+            if($role < 2) {
+                return redirect()->to('admin/dashboard');
+            }
         }
     }
 

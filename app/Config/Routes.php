@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->group('admin', ['filter' => 'authuser'], function($routes){
+$routes->group('admin', ['filter' => 'authadmin'], function($routes){
     $routes->get('dashboard', 'UIAdminController::index');
     $routes->get('product/settings', 'UIAdminController::ui_product_settings');
     $routes->get('product/catalog','UIAdminController::ui_product_catalog');
@@ -28,7 +28,7 @@ $routes->group('login', function($routes){
     $routes->post('auth', 'LoginUsersController::auth');
     $routes->get('logout', 'LoginUsersController::logout');
 });
-$routes->group('cashier', ['filter' => 'authuser'], function($routes){
+$routes->group('cashier', ['filter' => 'authcashier'], function($routes){
     $routes->get('home', 'UICashierController::index');
     $routes->get('inventory', 'UICashierController::ui_cashier_inventory');
     $routes->get('orders', 'UICashierController::ui_cashier_orders');
