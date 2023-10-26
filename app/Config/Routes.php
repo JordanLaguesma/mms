@@ -20,6 +20,7 @@ $routes->group('admin', ['filter' => 'authadmin'], function($routes){
     $routes->get('promotions','UIAdminController::ui_promotions');
     $routes->get('settings','UIAdminController::ui_admin_settings');
 
+    $routes->post('user/account/table', 'UIAdminController::ui_user_table');
     $routes->post('user/account/add', 'UIAdminController::ui_user_add');
 });
 $routes->group('login', function($routes){

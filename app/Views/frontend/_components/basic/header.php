@@ -20,9 +20,14 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="<?= base_url('assets/images/favicon.png') ?> " />
     <link rel="stylesheet" id="themeStylesheet" href="<?= base_url('assets/theme/light-theme.css') ?>">
+    <!-- DataTables -->
+    <link href="https://cdn.datatables.net/v/bs5/dt-1.13.6/datatables.min.css" rel="stylesheet">
+    <!-- End DataTables -->
 </head>
 <style>
-    input, textarea, select{
+    input,
+    textarea,
+    select {
         color: white !important;
     }
 </style>

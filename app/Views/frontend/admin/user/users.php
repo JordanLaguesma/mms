@@ -39,7 +39,6 @@
                                                         </div>
                                                     </th>
                                                     <th> User Name </th>
-                                                    <th> Position</th>
                                                     <th> Role </th>
                                                     <th>Email</th>
                                                     <th>Action</th>
@@ -72,16 +71,17 @@
 
 </body>
 
+<script src="https://cdn.datatables.net/v/bs5/dt-1.13.6/datatables.min.js"></script>
 <script>
     $('#table_users').DataTable({
         "aoColumnDefs": [{
             "bSortable": false,
-            "aTargets": [0, 1]
+            "aTargets": [0, 1, 2, 3]
         }],
         "order": [],
         "serverSide": true,
         "ajax": {
-            url: "<?= base_url('home/fullTable') ?>",
+            url: "<?= site_url('admin/user/account/table') ?>",
             type: 'POST'
         }
     });

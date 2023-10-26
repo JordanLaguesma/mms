@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Users;
-// use monken\TablesIgniter;
+use monken\TablesIgniter;
 
 class UIAdminController extends BaseController
 {
@@ -30,6 +30,11 @@ class UIAdminController extends BaseController
     // Users
     public function ui_user_account(){
         return view('frontend/admin/user/users');
+    }
+    public function ui_user_table(){
+        $model = new Users();
+        $table = new TablesIgniter($model->initTable());
+        return $table->getDatatable();
     }
     public function ui_user_add(){
         $error = 1;
